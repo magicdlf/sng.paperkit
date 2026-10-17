@@ -1,0 +1,15 @@
+# Generated output and machine-specific files
+node_modules/
+build/
+dist/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.last-paper
+*.tmp-*
+*.log
+.env
+.env.*
+!.env.example
+.claude/
+.codex/

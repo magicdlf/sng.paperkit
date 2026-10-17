@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "contest": "HiMCM",
+  "year": 2026,
+  "problem": "GUIDE",
+  "teamControlNumber": "0000000",
+  "title": "PaperBuilder 使用指南",
+  "keywords": [],
+  "sections": [
+    {
+      "id": "welcome",
+      "role": "summary",
+      "file": "sections/00-welcome.md"
+    },
+    {
+      "id": "editing",
+      "role": "body",
+      "file": "sections/01-editing.md"
+    },
+    {
+      "id": "math",
+      "role": "body",
+      "file": "sections/02-math.md"
+    },
+    {
+      "id": "figures",
+      "role": "body",
+      "file": "sections/03-figures.md"
+    },
+    {
+      "id": "tables",
+      "role": "body",
+      "file": "sections/04-tables.md"
+    },
+    {
+      "id": "citations",
+      "role": "body",
+      "file": "sections/05-citations.md"
+    },
+    {
+      "id": "comments",
+      "role": "body",
+      "file": "sections/06-comments.md"
+    },
+    {
+      "id": "team",
+      "role": "body",
+      "file": "sections/07-team.md"
+    },
+    {
+      "id": "history",
+      "role": "body",
+      "file": "sections/08-history.md"
+    },
+    {
+      "id": "export",
+      "role": "body",
+      "file": "sections/09-export.md"
+    },
+    {
+      "id": "code",
+      "role": "appendix",
+      "file": "sections/80-code.md"
+    },
+    {
+      "id": "references",
+      "role": "references",
+      "file": null
+    },
+    {
+      "id": "ai-report",
+      "role": "ai-report",
+      "file": "sections/90-ai-report.md"
+    }
+  ],
+  "bibliography": "references.json",
+  "export": {
+    "engine": "pdflatex",
+    "draftComments": false,
+    "toc": true,
+    "layout": "official",
+    "floatPlacement": "float"
+  },
+  "members": [
+    "Student",
+    "Teacher"
+  ]
+}

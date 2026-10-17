@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "contest": "HiMCM",
+  "year": 2022,
+  "problem": "A",
+  "teamControlNumber": "0000000",
+  "title": "Honeybee population and pollination",
+  "keywords": [],
+  "sections": [
+    {
+      "id": "draft",
+      "file": "sections/01-draft.md",
+      "role": "body"
+    }
+  ],
+  "bibliography": "references.json",
+  "export": {
+    "engine": "pdflatex",
+    "draftComments": false,
+    "toc": true,
+    "layout": "official",
+    "floatPlacement": "float"
+  }
+}

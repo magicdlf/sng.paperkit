@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "references": [
+    {
+      "key": "demo2026",
+      "authors": "Demo Author",
+      "title": "Fictional reference for interface practice only",
+      "year": "2026",
+      "note": "Not a real publication; replace before formal use."
+    }
+  ]
+}

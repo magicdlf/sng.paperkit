@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "comments": [
+    {
+      "id": "c_guide_demo",
+      "sectionId": "comments",
+      "status": "open",
+      "createdAt": "2026-10-17T00:00:00Z",
+      "anchorText": "This conclusion needs evidence.",
+      "thread": [
+        {
+          "id": "m_guide_demo",
+          "at": "2026-10-17T00:00:00Z",
+          "text": "请解释需要哪一种证据，试着回复、解决并重新打开这条批注。",
+          "author": "Teacher"
+        }
+      ]
+    }
+  ]
+}
