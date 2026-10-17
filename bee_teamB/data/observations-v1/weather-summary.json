@@ -1,0 +1,11 @@
+{
+  "n_days": 97,
+  "first": "2022-05-18",
+  "last": "2022-08-22",
+  "highest_C": 45.0,
+  "days_daily_max_over_40": 27,
+  "counts_per_day": [
+    17,
+    38
+  ]
+}
