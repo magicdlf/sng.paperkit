@@ -38,4 +38,4 @@ npm run dev -- --paper "/absolute/path/to/PaperKit/paperbuilder-guide"
 
 应用内提交是本地提交，而且会纳入整个库工作区；push/pull 通过外部 Git 工具。同步前关闭编辑页面；不要强推。build/ 与 .last-paper 已忽略。
 
-中文指南只用于浏览器演示，不承诺默认 pdflatex 编译。英文蜜蜂示例可用于教师编译验证；其中结论仍须学生核实。
+新版 PaperBuilder 检测到中文时自动使用 XeLaTeX、ctex 与 TeX Live 自带 Fandol 字体，安装完整 TeX 环境后可编译中文指南。英文蜜蜂示例也可用于教师编译验证；其中结论仍须学生核实。
