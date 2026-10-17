@@ -26,7 +26,7 @@ npm run dev -- --paper "/absolute/path/to/PaperKit/paperbuilder-guide"
 # 浏览器打开 http://localhost:5173
 ```
 
-切换示例：顶栏“打开其它路径…”输入具体论文目录的绝对路径。若要在顶栏列出所有示例，启动前设置 HIMCM_PAPERS_ROOT 为 PaperKit 的绝对路径；仅设置 --paper 不改变列表扫描根目录。不要将库根目录直接作为 --paper。
+切换示例：顶栏输入具体论文目录的绝对路径，点击“打开已有目录”。添加过的目录即时保存在当前浏览器 localStorage，刷新和切换后仍保留；不再扫描默认论文库，也无需 HIMCM_PAPERS_ROOT。不要将本库根目录作为论文目录。换浏览器、端口或清除浏览器数据后需要重新添加。
 
 ## 正式团队使用
 
