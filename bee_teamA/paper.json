@@ -32,32 +32,38 @@
     {
       "id": "model",
       "file": "sections/04-model.md",
-      "role": "body"
+      "role": "body",
+      "owner": "LTY"
     },
     {
       "id": "results",
       "file": "sections/05-results.md",
-      "role": "body"
+      "role": "body",
+      "owner": "LTY"
     },
     {
       "id": "sensitivity",
       "file": "sections/06-sensitivity.md",
-      "role": "body"
+      "role": "body",
+      "owner": "YFZ"
     },
     {
       "id": "strengths",
       "file": "sections/07-strengths.md",
-      "role": "body"
+      "role": "body",
+      "owner": "YFZ"
     },
     {
       "id": "conclusion",
       "file": "sections/08-conclusion.md",
-      "role": "body"
+      "role": "body",
+      "owner": "ZQY"
     },
     {
       "id": "appendix",
       "file": "sections/80-appendix.md",
-      "role": "appendix"
+      "role": "appendix",
+      "owner": "ZQY"
     },
     {
       "id": "references",
@@ -79,6 +85,9 @@
     "floatPlacement": "float"
   },
   "members": [
-    "Laudester"
+    "Laudester",
+    "LTY",
+    "YFZ",
+    "ZQY"
   ]
 }
