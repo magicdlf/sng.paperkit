@@ -14,13 +14,13 @@ PaperBuilder 的示例论文与功能练习库。应用代码在 https://github.
 
 ## 给本地 AI
 
-先读取应用的 README 与 AI_INSTALL_INSTRUCTIONS.md。询问用户要创建本地试用论文还是克隆已有论文仓库；选择本库时询问要打开哪一份，推荐先读 paperbuilder-guide。不要安装 TeX，教师统一编译即可。
+先读取应用的 README 与 AI_INSTALL_INSTRUCTIONS.md。询问用户要克隆 PaperKit 体验还是新建自己的论文 Git 仓库；已有论文仓库则让用户提供地址。体验直接使用本库 URL，推荐打开 paperbuilder-guide；新建则在应用与本库之外创建独立目录、git init 并复制内置模板或选定示例。安装前说明依赖内容和大陆 npmmirror 地址，不安装 TeX，教师统一编译即可。
 
 ```bash
 # 在应用目录之外克隆本库；Windows 也可用 HTTPS
 # git clone https://github.com/magicdlf/sng.paperkit.git PaperKit
 # 然后回到 PaperBuilder 应用根目录执行
-npm ci
+npm ci --registry=https://registry.npmmirror.com --loglevel=info
 npm run dev -- --paper "/absolute/path/to/PaperKit/paperbuilder-guide"
 # 浏览器打开 http://localhost:5173
 ```
