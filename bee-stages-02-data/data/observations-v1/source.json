@@ -1,0 +1,22 @@
+{
+  "status": "downloaded_sha256_verified",
+  "dataset_doi": "10.5061/dryad.5tb2rbpg5",
+  "landing_page": "https://datadryad.org/dataset/doi:10.5061/dryad.5tb2rbpg5",
+  "version_id": 416183,
+  "accessed": "2026-10-17",
+  "files": [
+    {
+      "path": "pop.csv",
+      "size": 8873,
+      "digest": "cb8db65b78f2d570dd4e170e251dd8b90829b040073fd794b27e72456b3e1b4f",
+      "digestType": "sha-256"
+    },
+    {
+      "path": "README.md",
+      "size": 5337,
+      "digest": "e2f18eb16a898dd2f62617fcd6462c18cade25d279c40e77c9557eb4389ff3b6",
+      "digestType": "sha-256"
+    }
+  ],
+  "actual_sha256": "cb8db65b78f2d570dd4e170e251dd8b90829b040073fd794b27e72456b3e1b4f"
+}

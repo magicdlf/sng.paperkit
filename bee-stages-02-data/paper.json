@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "contest": "HiMCM",
+  "year": 2022,
+  "problem": "A",
+  "teamControlNumber": "0000000",
+  "title": "Bee colony model with weather and observation materials",
+  "keywords": [],
+  "sections": [
+    {
+      "id": "data-handover",
+      "file": "sections/00-data-handover.md",
+      "role": "body"
+    },
+    {
+      "id": "problem-restatement",
+      "file": "sections/01-problem-restatement.md",
+      "role": "body"
+    },
+    {
+      "id": "assumptions",
+      "file": "sections/02-assumptions.md",
+      "role": "body"
+    },
+    {
+      "id": "notations",
+      "file": "sections/03-notations.md",
+      "role": "body"
+    },
+    {
+      "id": "04a-model1",
+      "file": "sections/04a-model1.md",
+      "role": "body"
+    },
+    {
+      "id": "04a-model1-new",
+      "file": "sections/04a-model1-new.md",
+      "role": "body"
+    },
+    {
+      "id": "04b-model2",
+      "file": "sections/04b-model2.md",
+      "role": "body"
+    },
+    {
+      "id": "04b-model2-new",
+      "file": "sections/04b-model2-new.md",
+      "role": "body"
+    },
+    {
+      "id": "04c-model3",
+      "file": "sections/04c-model3.md",
+      "role": "body"
+    },
+    {
+      "id": "04c-model3-new",
+      "file": "sections/04c-model3-new.md",
+      "role": "body"
+    },
+    {
+      "id": "results",
+      "file": "sections/05-results.md",
+      "role": "body"
+    },
+    {
+      "id": "conclusion",
+      "file": "sections/06-conclusion.md",
+      "role": "body"
+    },
+    {
+      "id": "references",
+      "file": null,
+      "role": "references"
+    }
+  ],
+  "bibliography": "references.json",
+  "export": {
+    "engine": "pdflatex",
+    "draftComments": false,
+    "toc": true,
+    "layout": "official",
+    "floatPlacement": "float"
+  }
+}

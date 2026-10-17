@@ -1,0 +1,59 @@
+{
+  "rows": 185,
+  "colonies": 9,
+  "date_min": "2022-05-30",
+  "date_max": "2023-05-15",
+  "by_colony": {
+    "1": {
+      "rows": 14,
+      "first": "2022-05-30",
+      "last": "2022-11-28"
+    },
+    "2": {
+      "rows": 15,
+      "first": "2022-05-30",
+      "last": "2022-12-12"
+    },
+    "4": {
+      "rows": 17,
+      "first": "2022-05-30",
+      "last": "2023-01-16"
+    },
+    "5": {
+      "rows": 25,
+      "first": "2022-05-30",
+      "last": "2023-05-15"
+    },
+    "6": {
+      "rows": 25,
+      "first": "2022-05-30",
+      "last": "2023-05-15"
+    },
+    "7": {
+      "rows": 25,
+      "first": "2022-05-30",
+      "last": "2023-05-15"
+    },
+    "8": {
+      "rows": 25,
+      "first": "2022-05-30",
+      "last": "2023-05-15"
+    },
+    "9": {
+      "rows": 25,
+      "first": "2022-05-30",
+      "last": "2023-05-15"
+    },
+    "10": {
+      "rows": 14,
+      "first": "2022-05-30",
+      "last": "2022-11-28"
+    }
+  },
+  "total_differences_above_one": [],
+  "notes": [
+    "Original header Pupae has trailing whitespace; normalized in observations.csv.",
+    "Raw file contains dates beyond the summer period described on the landing page. Do not assume all rows belong to the summer analysis.",
+    "Counts are estimates; fractional values preserved."
+  ]
+}
