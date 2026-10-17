@@ -33,13 +33,15 @@
       "id": "model",
       "file": "sections/04-model.md",
       "role": "body",
-      "owner": "LTY"
+      "owner": "LTY",
+      "status": "draft"
     },
     {
       "id": "results",
       "file": "sections/05-results.md",
       "role": "body",
-      "owner": "LTY"
+      "owner": "LTY",
+      "status": "draft"
     },
     {
       "id": "sensitivity",

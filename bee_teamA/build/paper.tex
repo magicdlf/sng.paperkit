@@ -1,0 +1,124 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+
+\usepackage[letterpaper,left=1in,top=1in,bottom=1in,right=0.75in]{geometry}
+% 注意：不加载 amssymb —— newtxmath 已提供 AMS 符号，重复加载会因 \Bbbk 冲突报错
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{soul}
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage[nameinlink]{cleveref}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Team \#~0000000}
+\fancyhead[R]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\headheight}{15pt}
+
+\captionsetup{font=small,labelfont=bf}
+\captionsetup[table]{position=below,skip=8pt}
+\renewcommand{\arraystretch}{1.15}
+\lstset{basicstyle=\ttfamily\small,breaklines=true,breakatwhitespace=true,columns=fullflexible,keepspaces=true}
+
+
+\begin{document}
+
+
+\thispagestyle{empty}
+\noindent
+\begin{minipage}[t]{0.3\textwidth}\centering
+\textbf{Problem Chosen}\\[2pt]
+{\Huge\bfseries\color{red} A}
+\end{minipage}%
+\begin{minipage}[t]{0.4\textwidth}\centering
+\textbf{2026 HiMCM}\\
+\textbf{Summary Sheet}
+\end{minipage}%
+\begin{minipage}[t]{0.3\textwidth}\centering
+\textbf{Team Control Number}\\[2pt]
+{\Huge\bfseries\color{red} 0000000}
+\end{minipage}
+\par\vspace{6pt}\hrule\vspace{14pt}
+
+Write your one-page summary here. State the problem in your own words, describe your modeling approach, and highlight your most important conclusions with concrete numbers.
+
+\newpage
+
+
+\tableofcontents
+\newpage
+
+
+\section{Introduction}
+
+\subsection{Problem Restatement}
+
+\subsection{Our Approach}
+
+\section{Assumptions and Justifications}
+
+\begin{enumerate}
+\item \textbf{Assumption.} Justification.
+\end{enumerate}
+
+To what extent does the dynamic viscosity of aqueous sucrose solutions, varied through concentration (0–60\% by mass) and temperature (25–55 °C), predict the linear damping constant of a fully submerged spherical pendulum at small amplitude? Aqueous sucrose is used because it separates the two fluid properties that normally move together. Across the range used here the measured density rises by a factor of 1.27 while the measured viscosity rises by a factor of 84.5, so viscosity can be treated as the dominant independent variable and density enters mainly through the added-mass correction. Both concentration and temperature are means to that end rather than variables of interest in themselves; the true independent variable is the measured viscosity of each of the twelve fluid environments. The answer is that viscosity does predict damping, but not through the proportionality Stokes' law implies, and only once form drag and a constant offset are included.
+
+\section{Notation}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lll}
+\toprule
+Symbol & Description & Unit \\
+\midrule
+$t$ & time & day \\
+\bottomrule
+\end{tabular}
+\caption{Notation used throughout this paper}\label{tbl:notation}
+\end{table}
+
+Each trace was processed in four steps. The swing axis was found by projecting x and y onto the direction that maximises spectral power at the oscillation frequency, rather than the axis of greatest variance, since the release transient contributes large off-axis excursions. The release instant was located as the point of maximum speed and the following 0.45 s discarded. The usable window was ended where the trace stops moving, identifying frames where the tracker had locked onto a stationary feature. The remainder was fitted to ₀ x(t) = A e\textasciicircum{}(−γt) cos(ωt + φ) + c + dt by non-linear least squares over the whole trace, rather than by picking peaks and fitting a
+
+\section{Model Development}
+
+jfhgffddcvcxfgdghfjgjkhkghfgdfbmvbncvbbnfgdm.bnvbcvbbnvnmbm,nmbnmvbncvnbnvmbncvbxcbvbnvbcvvjhgfggfdsbvnmbcnvxbczfbdasetrdtfjghvcnbxdnzshtrdjytfrjnmHSJDGjksgjkD
+
+\section{Results}
+
+\section{Sensitivity Analysis}
+
+\section{Strengths and Weaknesses}
+
+\subsection{Strengths}
+
+\subsection{Weaknesses}
+
+\section{Conclusion}
+
+\appendix
+
+\section{Supplementary Material}
+
+Code listings and extended derivations go here.
+
+\begin{thebibliography}{9}
+\bibitem{example2024} A. Author and B. Author, ``An example reference entry — delete me,'' \textit{Journal of Examples}, 2024. \url{https://example.com} (accessed 2026-07-01).
+\end{thebibliography}
+
+\newpage
+\section*{AI Use Report}\label{sec:aireport}
+
+If your team used AI tools, disclose here per the COMAP AI use policy: tool name and version, how it was used, and how you verified its output. This section is appended after the references and does not count toward the 25-page limit.
+
+\end{document}
