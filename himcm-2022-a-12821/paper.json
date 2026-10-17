@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "contest": "HiMCM",
+  "year": 2022,
+  "problem": "A",
+  "teamControlNumber": "12821",
+  "title": "Shedding Light on the Population of the Honeybee",
+  "keywords": [
+    "Allee Effect",
+    "Honeybees",
+    "Dynamic Model",
+    "Seasonality",
+    "Virus",
+    "Pollination"
+  ],
+  "sections": [
+    {
+      "id": "summary",
+      "file": "sections/00-summary.md",
+      "role": "summary"
+    },
+    {
+      "id": "chapter-1",
+      "file": "sections/01-chapter.md",
+      "role": "body"
+    },
+    {
+      "id": "chapter-2",
+      "file": "sections/02-chapter.md",
+      "role": "body"
+    },
+    {
+      "id": "chapter-3",
+      "file": "sections/03-chapter.md",
+      "role": "body"
+    },
+    {
+      "id": "chapter-4",
+      "file": "sections/04-chapter.md",
+      "role": "body"
+    },
+    {
+      "id": "chapter-5",
+      "file": "sections/05-chapter.md",
+      "role": "body"
+    },
+    {
+      "id": "references",
+      "file": null,
+      "role": "references"
+    }
+  ],
+  "bibliography": "references.json",
+  "export": {
+    "engine": "pdflatex",
+    "draftComments": false,
+    "toc": true,
+    "layout": "official",
+    "floatPlacement": "float"
+  }
+}
