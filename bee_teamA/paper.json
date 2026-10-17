@@ -20,12 +20,14 @@
     {
       "id": "assumptions",
       "file": "sections/02-assumptions.md",
-      "role": "body"
+      "role": "body",
+      "owner": "Laudester"
     },
     {
       "id": "notation",
       "file": "sections/03-notation.md",
-      "role": "body"
+      "role": "body",
+      "owner": "Laudester"
     },
     {
       "id": "model",
@@ -75,5 +77,8 @@
     "toc": true,
     "layout": "official",
     "floatPlacement": "float"
-  }
+  },
+  "members": [
+    "Laudester"
+  ]
 }
