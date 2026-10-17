@@ -23,6 +23,11 @@
       "file": "sections/02-math.md"
     },
     {
+      "id": "latex-practice",
+      "role": "body",
+      "file": "sections/02a-latex-practice.md"
+    },
+    {
       "id": "figures",
       "role": "body",
       "file": "sections/03-figures.md"
