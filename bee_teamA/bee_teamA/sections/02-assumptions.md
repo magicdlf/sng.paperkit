@@ -1,0 +1,5 @@
+# Assumptions and Justifications
+
+1. **Assumption.** Justification.
+
+To what extent does the dynamic viscosity of aqueous sucrose solutions, varied through concentration (0–60% by mass) and temperature (25–55 °C), predict the linear damping constant of a fully submerged spherical pendulum at small amplitude? Aqueous sucrose is used because it separates the two fluid properties that normally move together. Across the range used here the measured density rises by a factor of 1.27 while the measured viscosity rises by a factor of 84.5, so viscosity can be treated as the dominant independent variable and density enters mainly through the added-mass correction. Both concentration and temperature are means to that end rather than variables of interest in themselves; the true independent variable is the measured viscosity of each of the twelve fluid environments. The answer is that viscosity does predict damping, but not through the proportionality Stokes' law implies, and only once form drag and a constant offset are included.
